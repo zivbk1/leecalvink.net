@@ -1,0 +1,13 @@
+languageCode: "en-us"
+title: "leecalvink.net Draft"
+enableRobotsTXT: "false"
+menu:
+  main:
+  - name: Home
+    url: /
+  - name: About
+    url: /about/
+  - name: Resume
+    url: /resume/
+  - name: Contact
+    url: /contact/

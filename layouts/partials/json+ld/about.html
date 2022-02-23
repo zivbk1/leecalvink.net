@@ -1,0 +1,45 @@
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Person",
+        "address":{
+          "@type":"PostalAddress",
+          "addressLocality":"Edmonton",
+          "addressRegion":"AB",
+          "addressCountry":"Canada"
+        },
+        "alumniOf":{
+          "@type":"EducationalOrganization",
+          "name":"Grant MacEwan University"
+        },
+        "gender":"male",
+        "height":{
+          "@type":"QuantitativeValue",
+          "value":"187.96",
+          "unitCode":"CMT"
+        },
+        "url":"{{ site.url }}",
+        "sameAs":[
+          "https://www.linkedin.com/in/leecalvink/",
+          "https://github.com/leecalvink"
+        ]
+      },
+      {
+        "@type":"BreadcrumbList",
+        "itemListElement":[
+          {
+            "@type":"ListItem",
+            "position":1,
+            "name":"Home",
+            "item":"{{ site.url }}"
+          },
+          {
+            "@type":"ListItem",
+            "position":2,
+            "name":"About"
+          }
+        ]
+      }
+    ]
+  }

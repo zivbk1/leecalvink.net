@@ -1,0 +1,80 @@
+@import 'font-faces';
+html {
+  /* global variables for themes
+  --fsize:
+  --sfont:
+  --measure:
+  --leading:
+  --fg:
+  --min-contrast:
+  --contrast:
+  --max-contrast:
+  */
+  --main-font: Equity;
+  --sans-font: Concourse;
+  --mono-font: Triplicate;
+}
+body {
+  /*
+  color: var(--fg);
+  */
+  font-size: 1em; // let browser set default
+  font-family: var(--main-font);
+  margin: 0; // reset
+}
+main {
+}
+h1,h2,h3 {
+  margin: 0; // reset
+}
+p {
+  margin: 0; // reset
+}
+abbr {
+  font-variant: all-small-caps;
+}
+/*p > abbr {
+  font-variant: all-small-caps;
+}*/
+a {
+  /*
+  text-underline-offset:
+  text-decoration:
+  */
+}
+img {
+  max-width: 100%;
+  //height: auto;
+}
+svg {
+  width: 1em;
+  height: 2ex;
+  //fill: var (--fg);
+}
+ol, ul {
+  margin: 0; // reset
+}
+time {
+  font-family: var(--sans-font);
+}
+sup {
+  font-feature-settings: 'sups' 1;
+  /*vertical-align: inherit;
+  font-size: inherit;
+  color: var(--max-contrast):*/
+}
+small {
+  font-family: var(--sans-font);
+  font-size: var(--sfont);
+  color: var(--high-contrast);
+}
+button {
+  border: none;
+  cursor: pointer;
+  font-size: var(--sfont);
+  font-family: var(--sans-font);
+}
+kbd, samp {
+  font-family: 'triplicate';
+}
+@import 'mqueries';

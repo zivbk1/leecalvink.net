@@ -1,0 +1,11 @@
+{{- $options := (dict "outputStyle" "compressed") -}}
+{{- $style := resources.Get "main.scss" | resources.ToCSS $options -}}
+<link rel='stylesheet' href='{{ $style.Permalink }}'>
+<link rel='canonical' href='{{ .Permalink }}'>
+<link rel='icon' href=''>
+<link rel='manifest' href='json.webmanifest'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='{{ .Description }}'>
+<title>{{ .Title }}</title>{{/* .Title = .Page.Title */}}
+{{- $script := resources.Get "main.js" | resources.Minify -}}
+<script src='{{ $script.Permalink }}' defer></script>
