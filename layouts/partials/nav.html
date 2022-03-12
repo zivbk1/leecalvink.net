@@ -1,3 +1,6 @@
 <nav>
-  Needs work
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+    <a href='{{ .URL }}'{{ if $currentPage.HasMenuCurrent "main" . }} class='active'{{ end }}>{{ .Name }}</a>
+  {{ end }}
 </nav>
