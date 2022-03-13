@@ -1,5 +1,6 @@
 ---
 menu: main
+title: Resume
 ---
 Lee Calvin Kierstead
 Edmonton, AB

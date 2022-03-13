@@ -2,10 +2,10 @@
 <html lang='en-ca'>
   {{ partial "head" . }}
     <header>{{/*This gets the implicit role of 'banner'*/}}
-      <h1>{{ .Title }}</h1>
       {{ partial "nav" . }}
     </header>
     <main>
+      <h1>{{ .Title }}</h1>
       {{ block "content" . }}
       {{ end }}
     </main>
