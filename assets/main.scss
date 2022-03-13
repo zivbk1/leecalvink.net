@@ -1,9 +1,7 @@
 @import 'font-faces';
 html {
   /* global variables for themes
-  --fsize:
   --sfont:
-  --measure:
   --leading:
   --fg:
   --min-contrast:
@@ -17,10 +15,12 @@ html {
 body {
   /*
   color: var(--fg);
+  --measure: 100px;
+  max-width: var(--measure);
   */
   font-size: 1em; // let browser set default
   font-family: var(--main-font);
-  margin: 0; // reset
+  margin: 0 auto; // reset, and center
 }
 main {
 }
@@ -76,5 +76,8 @@ button {
 }
 kbd, samp {
   font-family: 'triplicate';
+}
+.active {
+  pointer-events: none;
 }
 @import 'mqueries';
