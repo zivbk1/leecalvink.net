@@ -1,6 +1,0 @@
-baseURL = 'https://leecalvink.net/'
-languageCode = 'en-us'
-title = 'The Official Site for Lee Calvin Kierstead'
-canonifyUrls = 'true'
-disableHugoGeneratorInject = 'true'
-enableRobotsTXT = 'false'

@@ -1,17 +1,16 @@
 languageCode: "en-us"
-title: "leecalvink.net Draft"
 enableRobotsTXT: "false"
 menu:
   main:
-  - name: Home
-    url: /
-    weight: 10
-  - name: About
-    url: /about/
-    weight: 20
-  - name: Resume
-    url: /resume/
-    weight: 30
-  - name: Contact
-    url: /contact/
-    weight: 40
+  - url: / 
+    name: Home
+    weight: 1
+  - url: /about/
+    name: About
+    weight: 2
+  - url: /resume/
+    name: Resume
+    weight: 3
+  - url: /contact/
+    name: Contact
+    weight: 4
