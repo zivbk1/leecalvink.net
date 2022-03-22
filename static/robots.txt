@@ -1,5 +1,0 @@
-user-agent: *
-disallow: /404/
-disallow: /images/responsive/
-
-sitemap: https://leecalvink.net/sitemap.xml

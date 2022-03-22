@@ -1,7 +1,7 @@
 ---
-seotitle: "Lee’s home on the web | leecalvink.net"
+seotitle: "My home on the web | url here"
 title: Hello
-description: The official website for Lee Calvin Kierstead.
+description: The official website for me
 menu: main
 ---
 This is the homepage.
