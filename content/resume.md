@@ -1,7 +1,10 @@
 ---
-menu: main
 title: Resume
+menu: 
+  main:
+    weight: 20
 ---
+
 Lee Calvin Kierstead
 Edmonton, AB
 
