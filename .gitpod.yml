@@ -3,7 +3,7 @@ tasks:
     init: sudo apt install git-restore-mtime
     command: git restore-mtime --force
   - name: Run Hugo Dev Server
-    init: npm install && brew install hugo
+    init: brew install hugo
     command: hugo server -D -F --baseUrl $(gp url 1313) --appendPort=false --liveReloadPort=443 --bind=0.0.0.0
 
 ports:
