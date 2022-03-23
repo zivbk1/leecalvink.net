@@ -1,8 +1,8 @@
 ---
 title: About
-menu: 
+menu:
   main:
-    weight: 30
+    weight: 20
 ---
 
 This is the about page.

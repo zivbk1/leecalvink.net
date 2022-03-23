@@ -2,7 +2,7 @@
 title: Resume
 menu: 
   main:
-    weight: 20
+    weight: 30
 ---
 
 Lee Calvin Kierstead
